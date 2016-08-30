@@ -1,0 +1,66 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    When we use this command, the prompt only shows us what has changed.
+    It show use what was inserted and what was deleted. This increases
+    a lot the productivity when looking for typos or bugs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It can save me lots and lots of time if after a bunch of work something
+    wrong happens and it's because of some change I made in start.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: is that you can tell the right time to make a commit and name it the
+    way it's easy to understand after some days.
+    Cons: you can forget to make the commit and this could be a pain some days
+    later.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Programming projects have more than one file interrelated. So, when a change
+    is made at one, this change can alter the whole program and it may be good
+    or may be a problem in it. But this problem can be in another file that you
+    didn't change last commit. It's good to save everything in only one commit,
+    because this way is possible to organize changes and treat the whole pro-
+    ject as a whole.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I only used git log to see all the gits. I kinda had a hard time to figure
+    it out if I could quit git log, I should have tried, but instead I went to
+    the internet to search about it. I found out to get back to the command line
+    we have to press q to quit and there's no problem at all on doing that.
+
+    Once I saw all the commits, there are a bunch of them in the repo and I was
+    a little bit lazy to look it up by my on, so I went to the internet again to
+    see a better way to find a specific commit searching by its name. That was
+    pretty nice, cause turns out git has a special command for that (git log
+    --all --grep="the words you are looking for").
+
+    I was also lazy to look it up the previous commit id to use git command git
+    diff. So I looked it up on the internet how to see commit changes of a
+    single commit without having to compare to the previous commit. It's very
+    simple and intuitive, just (git show "commit ID")
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control it is possible to "go back in time" and see previous
+    commits without the influence of the latest commits. This way makes it pos-
+    sible to go back and check the exactly time the problem happened.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to work on Rocket School's project, make changes to the
+    code and being able to save every commit and deploy in a easier way.
+
+What commands you are always looking for in the internet?
+
+    How to open Google Chrome from the Terminal:
+    open -a "Google Chrome" index.html
