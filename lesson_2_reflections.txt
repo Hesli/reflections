@@ -19,3 +19,16 @@ change?
         have been changed. If I run "git diff" I'll be able to see the differen-
         ces between the files in the Staging area and the Working Directory. In
         this way, I can make sure I'll commit the right changes.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+        When I want to make a test in my code, or I want to make a same version
+        but while somebody else is working in the master branch. Or while I am
+        fixing a bug in the master branch and somebody else need to work on ano-
+        ther bug, so he can creat a branch and start working on it without wor-
+        ries cause when the guy's done we just have to merge the two.
+
+        This tool is very helpful to try out different codes and work with dif-
+        ferent people. This way somebody else's work will never harm another
+        person's work.
