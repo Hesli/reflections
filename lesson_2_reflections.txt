@@ -10,4 +10,12 @@ What value do you think it offers?
 
         I believe the staging are is an intermediate place between the working
         directory and the repository. But I still don't understand very much
-        the differences between them. 
+        the differences between them.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+        Once I make a change to a file, I can run git status to see which files
+        have been changed. If I run "git diff" I'll be able to see the differen-
+        ces between the files in the Staging area and the Working Directory. In
+        this way, I can make sure I'll commit the right changes.
