@@ -32,3 +32,8 @@ organized? How would branches help?
         This tool is very helpful to try out different codes and work with dif-
         ferent people. This way somebody else's work will never harm another
         person's work.
+
+How do the diagrams help you visualize the branch structure?
+
+        It shows the exactly place the branch was created and this makes it
+        easier to see the commits' parents a track them.
