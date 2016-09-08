@@ -37,3 +37,12 @@ How do the diagrams help you visualize the branch structure?
 
         It shows the exactly place the branch was created and this makes it
         easier to see the commits' parents a track them.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+        The branches become one, the current branch I am checkout will be the
+        one that will introduce all the other branch's commits to its diagram.
+        In this way the other branch can be deleted without losing its data.
+        The diagram is import, cause is a visual tracking of the history of all
+        changes and this makes it easier to understand.
