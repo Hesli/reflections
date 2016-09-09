@@ -46,3 +46,11 @@ the diagram the way we do?
         In this way the other branch can be deleted without losing its data.
         The diagram is import, cause is a visual tracking of the history of all
         changes and this makes it easier to understand.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+        Automatic merging facilitates the usability, but in the same time the
+        machine can't recognize same changes written differently.
+        So, manually merging is better, because I can have a chance to verify
+        the code before the merge happens. 
