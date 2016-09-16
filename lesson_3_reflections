@@ -9,3 +9,19 @@ matically stay up-to-date with your remote repository?
         Because, somebody else might be making new commits to a branch and I
         maybe not interested in pulling it in a specific time. Maybe later
         would me better to pull the files he has created or updated.
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+        Branch: I would use branch when I want to make some big updates, but
+        not sure of the outcome is better to work in a new branch and don't mess
+        with the master branch.
+
+        Clone: When I want to work locally in a repo that is in Github, this way
+        I basically copy to local and can push and pull changes to the file in
+        Github. It's perfect.
+
+        Fork: It's used when I want to contribute to a project or make my own
+        version of it. It's kinda like a copy, but different to clone the files
+        will be treated as separate ones and I will not push or pull changes to
+        the original in Github, but I can do that to my own copy.
